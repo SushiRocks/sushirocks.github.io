@@ -7,7 +7,7 @@
     font-family: 'helvetica';
     background-color: aquamarine;
     position:fixed-top;
-    width: vw;
+    width: 100vw;
       text-align: center;
     
 }
@@ -15,7 +15,7 @@
 #name-banner{
   font-weight: bold;
   font-family: 'helvetica';
-  font-size: vw;
+  font-size: 100vw;
   text-align: center;
   color: aquamarine;
   background-image: url("./LI-banner.jpeg");
