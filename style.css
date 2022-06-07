@@ -10,7 +10,7 @@
 }
 
 #name-banner{
-  background-image: "./LI-banner.jpeg";
+  background-image: url("./LI-banner.jpeg");
   font-weight: 300px;
   font-family: 'helvetica';
   font-size: 16px;
