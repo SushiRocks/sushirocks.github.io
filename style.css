@@ -8,7 +8,7 @@
     color: black;
     position:fixed-top;
     margin-top: 0;
-    width: 1vw;
+    width: 10vw;
     text-align: center;
     list-style: none;
     
@@ -21,8 +21,8 @@
   text-align: center;
   color: black;
   background-image: url("./LI-banner.jpeg");
-  width: 1vw;
-  height: 200px;
+  width: 10vw;
+  height: 175px;
 
 }
 
