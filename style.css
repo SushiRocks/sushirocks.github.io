@@ -2,7 +2,7 @@
 
 #navbar{
     display: inline-block;
-    font-size: .5em;
+    font-size: 1em;
     font-weight: italic;
     font-family: 'helvetica';
     background-color: aquamarine;
@@ -17,15 +17,14 @@
 #name-banner{
   font-weight: bold;
   font-family: 'helvetica';
-  font-size: .5em;
+  font-size: 1em;
   text-align: center;
   color: black;
   background-image: url("./LI-banner.jpeg");
-  width: 300px;
+  width: 800px;
+  height: 200px;
   padding: 25px;
-  box-sizing: border-box;
 
-  
 }
 
 
