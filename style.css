@@ -10,14 +10,14 @@
     position:fixed-top;
     margin-top: 0;
     text-align: center;
-    width: 100%
+    width: 100%;
     list-style: none;   
 }
 
 #name-banner{
   font-weight: bold;
   font-family: 'helvetica';
-  font-size: 100%;
+  font-size: 75px;
   text-align: center;
   color: black;
   background-image: url("./LI-banner.jpeg");
