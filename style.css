@@ -2,22 +2,26 @@
 
 #navbar{
     display: inline-block;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
-    font-family: "helvetica";
+    font-family: 'helvetica';
     background-color: aquamarine;
+    position:fixed;
+    width: 100%;
+    
 }
 
 #name-banner{
   font-weight: bold;
   font-family: 'helvetica';
-  font-size: 16px;
+  font-size: 500px;
   text-align: center;
-  font-color: "white";
+  color: aquamarine;
   background-image: url("./LI-banner.jpeg");
   width: 800px;
   height: 200px;
-  display: inline-block
+  display: block;
+  
 }
 
 
