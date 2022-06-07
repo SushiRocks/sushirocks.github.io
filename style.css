@@ -1,8 +1,7 @@
 
 
 #navbar{
-    display: inline;
-    background-color: aqua;
+    display: inline-block;
     font-size: 14px;
     font-weight: bold;
     font-color: black;
