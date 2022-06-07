@@ -8,7 +8,7 @@
 }
 
 #name-banner{
-  font-weight: 300px;
+  font-weight: bold;
   font-family: 'helvetica';
   font-size: 16px;
   text-align: center;
@@ -16,6 +16,7 @@
   background-image: url("./LI-banner.jpeg");
   width: 800px;
   height: 200px;
+  display: inline-block
 }
 
 
