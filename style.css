@@ -23,6 +23,7 @@
   background-image: url("./LI-banner.jpeg");
   width: 10vw;
   height: 175px;
+  display: inline-block;
 
 }
 
