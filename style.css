@@ -3,12 +3,12 @@
 #navbar{
     display: inline-block;
     font-size: 1em;
-    font-weight: italic;
     font-family: 'helvetica';
     background-color: aquamarine;
+    color: black;
     position:fixed-top;
-    margin-top: 0
-    width: 100%;
+    margin-top: 0;
+    width: 1vw;
     text-align: center;
     list-style: none;
     
@@ -21,9 +21,8 @@
   text-align: center;
   color: black;
   background-image: url("./LI-banner.jpeg");
-  width: 800px;
+  width: 1vw;
   height: 200px;
-  padding: 25px;
 
 }
 
