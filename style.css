@@ -4,12 +4,13 @@
     display: inline-block;
     font-size: 14px;
     font-weight: bold;
-    font-color: black;
+    font-color: white;
+    background-image: url("./LI-banner.jpeg")
     font-family: 'helvetica';
+    height: 100%;
 }
 
 #name-banner{
-  background-image: url("./LI-banner.jpeg");
   font-weight: 300px;
   font-family: 'helvetica';
   font-size: 16px;
