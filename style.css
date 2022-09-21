@@ -1,4 +1,21 @@
+body {
+    background: var(--background);
+    color: var(--primary);
+    max-width: 1024px;
+    font-family: sans-serif;
 
+    --background: var(--dark-background);
+    --primary: var(--dark-primary);
+    --link: var(--dark-link);
+
+    --dark-background: #253a52;
+    --dark-primary: #FFFFE3;
+    --dark-link: #A9FE75;
+
+    --light-background: #FFFFE3;
+    --light-primary: #253a52;
+    --light-link: #1348da;
+}
 
 #navbar{
     display: block;
@@ -30,20 +47,20 @@
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: var(--link);
  }
 a:visited {
     text-decoration: none; 
-    color: black;}
+    color: var(--link)}
 a:hover {
     text-decoration: underline;
-    color: black;
+    color: var(--link);
     }
 a:active {
     text-decoration: underline;
-    color: black;
+    color: var(--link);
     outline-style: solid;
-    outline-color: white; }
+    outline-color: green; }
 
 
 table, th, td{
@@ -60,4 +77,23 @@ thead{
 h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+article {
+    display: flex;
+}
+
+.bio {
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .bio {flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    article {flex-direction: column;
+    }
+}
+
 
