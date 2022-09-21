@@ -4,9 +4,9 @@ body {
     max-width: 1024px;
     font-family: sans-serif;
 
-    --background: var(--dark-background);
-    --primary: var(--dark-primary);
-    --link: var(--dark-link);
+    --background: var(--mode-background);
+    --primary: var(--mode-primary);
+    --link: var(--mode-link);
 
     --dark-background: #4527a0;
     --dark-primary: #eaffe3;
