@@ -17,7 +17,5 @@ toggle.addEventListener('click', () => {
     bodyCssProps.set('--background', bodyCssProps.get (`--${mode}--background`))
     bodyCssProps.set('--primary', bodyCssProps.get (`--${mode}--primary`))
     bodyCssProps.set('--link', bodyCssProps.get (`--${mode}--link`))
-    }  
-    }
-)
+    } )
 
