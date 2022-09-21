@@ -8,13 +8,13 @@ body {
     --primary: var(--dark-primary);
     --link: var(--dark-link);
 
-    --dark-background: #253a52;
-    --dark-primary: #FFFFE3;
+    --dark-background: #4527a0;
+    --dark-primary: #eaffe3;
     --dark-link: #A9FE75;
 
-    --light-background: #FFFFE3;
-    --light-primary: #253a52;
-    --light-link: #1348da;
+    --light-background: #eaffe3;
+    --light-primary: #4527a0;
+    --light-link: #1855fe;
 }
 
 #navbar{
@@ -25,7 +25,7 @@ body {
     background-image: url("./LI-banner.jpeg");
     position: 'fixed-top';
     margin-top: 0;
-    text-align: left;
+    text-align: center;
     width: 100%;
     list-style: none;
 }
@@ -35,7 +35,7 @@ body {
   font-family: 'helvetica';
   font-size: 50px;
   text-align: center;
-  color: black;
+  color: var(--primary);
   display: inline-block;
 }
 
@@ -97,3 +97,6 @@ article {
 }
 
 
+:root {
+    color-scheme: light dark; /* both supported */
+  }
