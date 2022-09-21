@@ -1,183 +1,127 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Kirby Desta</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sora:wght@700&family=Work+Sans:ital,wght@0,400;0,700;1,600&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
 
-<html>
-
-
-<head>
-  <html lang="en" class="sr">
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" src="./logo.ico" type="image/x-icon">
-  <link rel='stylesheet' href='style.css' type='text/css'>
-  <title> Angel Beaversouris | Developer</title>
-  <meta name="keywords" content="Angel-Beaversouris, Developer, Software" />
-  <meta name="description" content="Angel Beaversouris | Developer" />
-  <meta name="color-scheme" content="dark light">
-  
-</head>
-
-
-<ul id=navbar>
-  <li><a href="./index.html">Home</a></li>
-  <li><a href="./project-portfolio.html">Professional Portfolio</a> </li>
-  <li><a href="./Resume-Angel-Beaversouris.pdf"> Resume </a> </li>
-  <li><a href="./Higher-Education.html"> Higher Education </a> </li>
-  <li><a href="https://flow.page/thedonutcats"> Meet my Cats </a> </li>
-  <li><a href="connect-page.html"> Connect with me! </a> </li>
-
-</ul>
-
-
-
-<body>
-<section id="Bio">
-  <div class="container">
-    <h1>
-      Hi! My name is Angel Beaversouris. I'm a software developer.
-    </h1>
-    <p>Pronouns: he/they</p>
-  </div>
-</section>
-
-<section id="about">
-  <div class="Profile Picture">
-    <img alt="Angel Beaversouris's smiling face" class="img-fluid rounded shadow-lg" height="auto" width="300px"
-      src="picture.jpeg" />
-  </div>
-  <h2 class="Profile Picture">About me</h2>
-     <div class="Headline">
-      <p>
-        10+ years in Customer Service; Full-Stack Software Engineer in-training via Codeacademy; Learning HTML, CSS, JS,
-        SQL,
-        & UX/UI Design Principles
-      </p>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toggle-switch.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Kirby Desta</h1>
+        <ul>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="controls">
+        <label class="toggle-switch">
+          Dark Mode
+          <input type="checkbox" id="dark-mode-toggle" [aria-label="dark mode"]>
+          <div class="toggle-switch-border">
+            <div class="toggle-switch-dot"></div>
+          </div>
+        </label>
       </div>
+    </header>
+
+    <section class="bio">
+      <img class="profile-img" alt="profile image" src="https://static-assets.codecademy.com/assets/livestreams/national_coding_week/profile.png" />
       <div>
-      <p>
-        Born and raised in San Jose, CA, Angel now lives in Washington State with his spouse, Riley. They live together
-        in Everett with their three
-        cats: Elliot, Lunabelle, and Lupin. In 2021, he graduated with honors from Western Washington University with a
-        major in Communication Sciences & Disorders as well as minors in Linguistics and English. His many siblings and
-        siblings-in-law often join him for fishing and camping trips, or virtual meet ups to play Minecraft, Skyrim, and
-        Stardew Valley.
-      </p>
-    </div>
-      </span>
-    </div>
-  </div>
-  </div>
-  </div>
-</section>
+        <h2>Hello! My name is Kirby Desta. I’m a freelance web developer.</h2>
+        <p>
+          I’ve been coding and making data visualization projects since 2016. I have experience and
+          interest in web design (HTML, CSS & JS), programming (Python), and Natural Language
+          Processing. In my free time I enjoy gardening, roller skating, and playing bass guitar.
+        </p>
+        <a class="btn" href="#">See my work</a>
+      </div>
+    </section>
 
+    <section class="recent-work">
+      <h2>Recent Work</h2>
+      <article>
+        <div>
+          <h3>Text Message Analysis</h3>
+          <p>Measuring sentiment in real-world SMS data.</p>
+          <strong>Feb 2022</strong>
+          <ul>
+            <li>Imported large, complex datasets for text preprocessing</li>
+            <li>Analyzed data for positive and negative sentiment using Language Parsing, Word Vectorization, and Topic Modeling</li>
+            <li>Generated visualizations from results</li>
+          </ul>
+          <a href="#">GitHub Repo</a>
+        </div>
+        <img class="article-img" alt="article image" src="https://static-assets.codecademy.com/assets/livestreams/national_coding_week/phone.png" />
+      </article>
+      <article>
+        <div>
+          <h3>Biodiversity in National Parks</h3>
+          <p>Data analysis on the conservation statuses of various endangered species living in national parks.</p>
+          <strong>May 2021</strong>
+          <ul>
+            <li>Analyzed, cleaned, then plotted data using Matplotlib</li>
+            <li>Searched for patterns or themes in data</li>
+            <li>Used Jupyter Notebook to communicate findings and conservation recommendations</li>
+          </ul>
+          <a href="#">GitHub Repo</a>
+        </div>
+        <video class='article-img' controls>
+              <source src='https://static-assets.codecademy.com/assets/livestreams/national_coding_week/park.mp4'>
+        </video>
+      </article>
+      <article>
+        <div>
+          <h3>Caption Contest</h3>
+          <p>A platform that allows users to participate in photo caption contests.</p>
+          <strong>Jan 2021</strong>
+          <ul>
+            <li>Created the back end for a platform where users can submit captions</li>
+            <li>Implemented security best practices to authenticate and authorize users</li>
+            <li>Created a cache to store frequently requested data</li>
+          </ul>
+          <a href="#">GitHub Repo</a>
+        </div>
+        <img class="article-img" alt="article image" src="https://static-assets.codecademy.com/assets/livestreams/national_coding_week/dog.png" />
+      </article>
+    </section>
 
-
-<!-- Embed Video here -->
-
-<h3>
-  Recent Work
-</h3>
-
-<h3>
-  Education
-</h3>
-Codecademy<br>
-Full-Stack Software Engineering Certification<br>
-Jan 2022 - Jan 2023<br>
-<ul>
-  <li> Learn how to build secure full-stack applications and underlying operating system fundamentals.</li>
-  <li> Build stylized and responsive websites with HTML and CSS.</li>
-  <li> Build interactive sites using JavaScript and host it on a remote GitHub repository.</li>
-  <li> Build independent projects from scratch, as well as creating a portfolio.</li>
-  <li> Develop collaboration skills: pair programming, code review, & group projects.</li>
-</ul>
-
-Western Washington University<br>
-Bachelor's degree, Communication Sciences and Disorders<br>
-2019 - 2021<br>
-3.85 GPA<br>
-<ul>
-  <li>Major in Communication Sciences and Disorders (Speech-Language Pathology/Audiology)</li>
-  <li> Double-minor in English and Linguistics</li>
-</ul>
-
-
-
-Bellevue College<br>
-Associate of Arts and Sciences - AAS<br>
-2018 - 2019<br>
-Grade: 3.86 GPA<br>
-<ul>
-  <li> Phi Theta Kappa Honor Society</li>
-  <li> Volunteered with ASL Club</li>
-</ul>
-
-
-
-
-<h3>
-  Volunteer Experience
-</h3>
-Whatcom County Literacy Council <br>
-Student Tutor<br>
-Feb 2020 - Jun 2020 · 6 mos<br>
-<ul>
-  <li>Responsible for tutoring adults for their GED </li>
-  <li> Tutored in Geography, Algebra, and English </li>
-  <li> Worked with Small Group Coordinator and Lead Instructor to modify lesson plans and pace for students </li>
-</ul>
-
-Baden-Powell Service Association (now named Outdoor Service Guides)<br>
-Rover Crew Leader<br>
-May 2018 - May 2019 · 1 yr 1 mo<br>
-<ul>
-  <li> Founded the Rover Crew for the 98th Rainier </li>
-  <li>Organized quarterly events, including finalizing itineraries and confirming reservations for overnight trips</li>
-  <li> Organized and led monthly meetings on outdoors skills, such as lashing, splicing, and knot-tying</li>
-  <li>Checked in with members of crew regularly to remind them of meetings</li>
-</ul>
-
-
-
-Snoqualmie Venturing Crew #115<br>
-Christmas Tree Lot Personnel<br>
-Nov 2018 - Dec 2018 · 2 mos<br>
-<ul>
-  <li> Participated in set-up and take-down of tree lot for the 2018 Christmas season</li>
-  <li> Resolved disagreements between crew members</li>
-  <li> Volunteered almost 150 hours of Christmas tree stocking, pricing, boring, netting, and securing to customers'
-    vehicles as part of a team</li>
-</ul>
-<!--
-<h3>
-    Additional Ventures:
-</h3>
-<h4>
-    Hospitality and Property Management
-</h4>
-
-<h5>
-    Pinene Place
-</h5>
-
-<h4>
-    Culinary Arts
-</h4>
-
-<h5>
-    Munch Mobile
-</h5>
- -->
-
-
-
-
-
-
-
-</p>
-</body>
-<script src = 'addButton.js'></script>
-<script src = 'script.js' ></script>
-<script src = 'toggle-switch.css'></script>
+    <footer>
+      <ul>
+        <li>
+          <a href="#">
+            LinkedIn
+            <span class="link-icon">
+              <i class="fa-brands fa-linkedin"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            CV
+            <span class="link-icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            GitHub
+            <span class="link-icon">
+              <i class="fa-brands fa-github"></i>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p class="copywright">© 2022 Kirby Desta</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
