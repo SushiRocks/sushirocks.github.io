@@ -14,8 +14,8 @@ const bodyCssProps = new CssPropControl(document.body)
 let toggle = document.querySelector('#dark-mode-toggle')
 toggle.addEventListener('click', () => {
     let mode = toggle.checked ? 'dark': 'light'
-    bodyCssProps.set('--background', bodyCssProps.get (`--${mode}--background`))
-    bodyCssProps.set('--primary', bodyCssProps.get (`--${mode}--primary`))
-    bodyCssProps.set('--link', bodyCssProps.get (`--${mode}--link`))
+    bodyCssProps.set('--background', bodyCssProps.get (`--${mode}-background`))
+    bodyCssProps.set('--primary', bodyCssProps.get (`--${mode}-primary`))
+    bodyCssProps.set('--link', bodyCssProps.get (`--${mode}-link`))
     } )
 
