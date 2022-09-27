@@ -18,9 +18,9 @@ body {
     --light-primary: #253a52;
     --light-link: #1348da;
   
-    --background: var(--background);
-    --primary: var(--primary);
-    --link: var(--link);
+    --background: var(--light-background);
+    --primary: var(--light-primary);
+    --link: var(--light-link);
   }
   
   a {
