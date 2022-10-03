@@ -88,7 +88,7 @@ body {
     padding-block-end: 4rem;
   }
   
-  .bio .profile-img {
+  .bio .profile-picture {
     margin-inline-end: 4rem;
     width: 320px;
     min-width: 320px;
@@ -215,4 +215,3 @@ body {
     align-items: center;
     font-size: 1.5rem;
   }
-  
