@@ -215,3 +215,11 @@ body {
     align-items: center;
     font-size: 1.5rem;
   }
+
+.profile-picture {
+    margin-inline-end: 4rem;
+    width: 320px;
+    min-width: 320px;
+    background: #888;
+    border-radius: 160px;
+  }
